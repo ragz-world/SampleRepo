@@ -1,9 +1,20 @@
 package superKeyword;
 
-public class SuperMethodChild {
+public class SuperMethodChild extends SuperMethodParent  {
+	
+	public void display()
+	
+	{
+		super.show();
+		System.out.println("World");
+		
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		SuperMethodChild obj = new SuperMethodChild();
+		obj.display();
+		
 
 	}
 
